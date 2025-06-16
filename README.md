@@ -1,4 +1,7 @@
 # Renting
+Use following credentials for login
+email: john@mail.com
+password: changeme
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.1.
 
