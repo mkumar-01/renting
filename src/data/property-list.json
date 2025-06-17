@@ -1,0 +1,187 @@
+[
+  {
+    "id": 1,
+    "apartmentName": "BPTP",
+    "propertyLocation": {
+      "area": "Farukh Nagar",
+      "state": "Haryana"
+    },
+    "propertyDetail": {
+      "area": 1000,
+      "LeaseType": ["Long term (6+ months)", "Short Term", "Both"]
+    },
+    "expectedRent": {
+      "expectedRent": 20000,
+      "isNegotiable": "true",
+      "priceMode": ["Per Month", "Utilities included in rent"]
+    },
+    "furnished": "false",
+    "amenitiesIncluded": [
+      "Gym/Fitness Center",
+      "Power Backup",
+      "Plant Security System",
+      "Swimming Pool",
+      "Garbage Disposal",
+      "Laundry Service",
+      "Car Park",
+      "Private Lawn",
+      "Elevator",
+      "Visitors Parking",
+      "Water Heater",
+      "Club House"
+    ],
+    "shared": "true",
+    "otherDescription": {
+      "title": "Some title",
+      "description": "Some description"
+    }
+  },
+  {
+    "id": 2,
+    "apartmentName": "BPTP",
+    "propertyLocation": {
+      "area": "Farukh Nagar",
+      "state": "Haryana"
+    },
+    "propertyDetail": {
+      "area": 1000,
+      "LeaseType": ["Long term (6+ months)", "Short Term", "Both"]
+    },
+    "expectedRent": {
+      "expectedRent": 20000,
+      "isNegotiable": "true",
+      "priceMode": ["Per Month", "Utilities included in rent"]
+    },
+    "furnished": "false",
+    "amenitiesIncluded": [
+      "Gym/Fitness Center",
+      "Power Backup",
+      "Plant Security System",
+      "Swimming Pool",
+      "Garbage Disposal",
+      "Laundry Service",
+      "Car Park",
+      "Private Lawn",
+      "Elevator",
+      "Visitors Parking",
+      "Water Heater",
+      "Club House"
+    ],
+    "shared": "true",
+    "otherDescription": {
+      "title": "Some title",
+      "description": "Some description"
+    }
+  },
+  {
+    "id": 3,
+    "apartmentName": "BPTP",
+    "propertyLocation": {
+      "area": "Farukh Nagar",
+      "state": "Haryana"
+    },
+    "propertyDetail": {
+      "area": 1000,
+      "LeaseType": ["Long term (6+ months)", "Short Term", "Both"]
+    },
+    "expectedRent": {
+      "expectedRent": 20000,
+      "isNegotiable": "true",
+      "priceMode": ["Per Month", "Utilities included in rent"]
+    },
+    "furnished": "false",
+    "amenitiesIncluded": [
+      "Gym/Fitness Center",
+      "Power Backup",
+      "Plant Security System",
+      "Swimming Pool",
+      "Garbage Disposal",
+      "Laundry Service",
+      "Car Park",
+      "Private Lawn",
+      "Elevator",
+      "Visitors Parking",
+      "Water Heater",
+      "Club House"
+    ],
+    "shared": "true",
+    "otherDescription": {
+      "title": "Some title",
+      "description": "Some description"
+    }
+  },
+  {
+    "id": 4,
+    "apartmentName": "BPTP",
+    "propertyLocation": {
+      "area": "Farukh Nagar",
+      "state": "Haryana"
+    },
+    "propertyDetail": {
+      "area": 1000,
+      "LeaseType": ["Long term (6+ months)", "Short Term", "Both"]
+    },
+    "expectedRent": {
+      "expectedRent": 20000,
+      "isNegotiable": "true",
+      "priceMode": ["Per Month", "Utilities included in rent"]
+    },
+    "furnished": "false",
+    "amenitiesIncluded": [
+      "Gym/Fitness Center",
+      "Power Backup",
+      "Plant Security System",
+      "Swimming Pool",
+      "Garbage Disposal",
+      "Laundry Service",
+      "Car Park",
+      "Private Lawn",
+      "Elevator",
+      "Visitors Parking",
+      "Water Heater",
+      "Club House"
+    ],
+    "shared": "true",
+    "otherDescription": {
+      "title": "Some title",
+      "description": "Some description"
+    }
+  },
+  {
+    "id": 5,
+    "apartmentName": "BPTP",
+    "propertyLocation": {
+      "area": "Farukh Nagar",
+      "state": "Haryana"
+    },
+    "propertyDetail": {
+      "area": 1000,
+      "LeaseType": ["Long term (6+ months)", "Short Term", "Both"]
+    },
+    "expectedRent": {
+      "expectedRent": 20000,
+      "isNegotiable": "true",
+      "priceMode": ["Per Month", "Utilities included in rent"]
+    },
+    "furnished": "false",
+    "amenitiesIncluded": [
+      "Gym/Fitness Center",
+      "Power Backup",
+      "Plant Security System",
+      "Swimming Pool",
+      "Garbage Disposal",
+      "Laundry Service",
+      "Car Park",
+      "Private Lawn",
+      "Elevator",
+      "Visitors Parking",
+      "Water Heater",
+      "Club House"
+    ],
+    "shared": "true",
+    "otherDescription": {
+      "title": "Some title",
+      "description": "Some description"
+    }
+  }
+]
