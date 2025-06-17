@@ -34,21 +34,22 @@
     "otherDescription": {
       "title": "Some title",
       "description": "Some description"
-    }
+    },
+    "featured": "false"
   },
   {
     "id": 2,
-    "apartmentName": "BPTP",
+    "apartmentName": "SuperTech",
     "propertyLocation": {
-      "area": "Farukh Nagar",
-      "state": "Haryana"
+      "area": "Sec - 1, Noida",
+      "state": "UP"
     },
     "propertyDetail": {
       "area": 1000,
       "LeaseType": ["Long term (6+ months)", "Short Term", "Both"]
     },
     "expectedRent": {
-      "expectedRent": 20000,
+      "expectedRent": 15000,
       "isNegotiable": "true",
       "priceMode": ["Per Month", "Utilities included in rent"]
     },
@@ -71,21 +72,22 @@
     "otherDescription": {
       "title": "Some title",
       "description": "Some description"
-    }
+    },
+    "featured": "false"
   },
   {
     "id": 3,
-    "apartmentName": "BPTP",
+    "apartmentName": "Amrapali",
     "propertyLocation": {
-      "area": "Farukh Nagar",
+      "area": "Sec-91, Gurgaon",
       "state": "Haryana"
     },
     "propertyDetail": {
-      "area": 1000,
+      "area": 1400,
       "LeaseType": ["Long term (6+ months)", "Short Term", "Both"]
     },
     "expectedRent": {
-      "expectedRent": 20000,
+      "expectedRent": 18000,
       "isNegotiable": "true",
       "priceMode": ["Per Month", "Utilities included in rent"]
     },
@@ -108,21 +110,22 @@
     "otherDescription": {
       "title": "Some title",
       "description": "Some description"
-    }
+    },
+    "featured": "false"
   },
   {
     "id": 4,
-    "apartmentName": "BPTP",
+    "apartmentName": "Signature",
     "propertyLocation": {
-      "area": "Farukh Nagar",
+      "area": "37D, Gurgaon",
       "state": "Haryana"
     },
     "propertyDetail": {
-      "area": 1000,
+      "area": 900,
       "LeaseType": ["Long term (6+ months)", "Short Term", "Both"]
     },
     "expectedRent": {
-      "expectedRent": 20000,
+      "expectedRent": 16000,
       "isNegotiable": "true",
       "priceMode": ["Per Month", "Utilities included in rent"]
     },
@@ -145,21 +148,22 @@
     "otherDescription": {
       "title": "Some title",
       "description": "Some description"
-    }
+    },
+    "featured": "false"
   },
   {
     "id": 5,
-    "apartmentName": "BPTP",
+    "apartmentName": "Chintal",
     "propertyLocation": {
-      "area": "Farukh Nagar",
+      "area": "Dwarka Express Way",
       "state": "Haryana"
     },
     "propertyDetail": {
-      "area": 1000,
+      "area": 800,
       "LeaseType": ["Long term (6+ months)", "Short Term", "Both"]
     },
     "expectedRent": {
-      "expectedRent": 20000,
+      "expectedRent": 15000,
       "isNegotiable": "true",
       "priceMode": ["Per Month", "Utilities included in rent"]
     },
@@ -182,6 +186,7 @@
     "otherDescription": {
       "title": "Some title",
       "description": "Some description"
-    }
+    },
+    "featured": "true"
   }
 ]
