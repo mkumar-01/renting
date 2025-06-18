@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "picture": "assets/data/apartment-1.jpg",
     "apartmentName": "BPTP",
     "propertyLocation": {
       "area": "Farukh Nagar",
@@ -8,12 +9,12 @@
     },
     "propertyDetail": {
       "area": 1000,
-      "LeaseType": ["Long term (6+ months)", "Short Term", "Both"]
+      "leaseType": "Long term (6+ months)"
     },
     "expectedRent": {
       "expectedRent": 20000,
       "isNegotiable": "true",
-      "priceMode": ["Per Month", "Utilities included in rent"]
+      "priceMode": "Per Month"
     },
     "furnished": "false",
     "amenitiesIncluded": [
@@ -39,6 +40,7 @@
   },
   {
     "id": 2,
+    "picture": "assets/data/apartment-2.jpg",
     "apartmentName": "SuperTech",
     "propertyLocation": {
       "area": "Sec - 1, Noida",
@@ -46,12 +48,12 @@
     },
     "propertyDetail": {
       "area": 1000,
-      "LeaseType": ["Long term (6+ months)", "Short Term", "Both"]
+      "leaseType": "Long term (6+ months)"
     },
     "expectedRent": {
       "expectedRent": 15000,
       "isNegotiable": "true",
-      "priceMode": ["Per Month", "Utilities included in rent"]
+      "priceMode": "priceMode"
     },
     "furnished": "false",
     "amenitiesIncluded": [
@@ -77,6 +79,7 @@
   },
   {
     "id": 3,
+    "picture": "assets/data/apartment-3.jpg",
     "apartmentName": "Amrapali",
     "propertyLocation": {
       "area": "Sec-91, Gurgaon",
@@ -84,12 +87,12 @@
     },
     "propertyDetail": {
       "area": 1400,
-      "LeaseType": ["Long term (6+ months)", "Short Term", "Both"]
+      "leaseType": "Short term"
     },
     "expectedRent": {
       "expectedRent": 18000,
       "isNegotiable": "true",
-      "priceMode": ["Per Month", "Utilities included in rent"]
+      "priceMode": "Annual"
     },
     "furnished": "false",
     "amenitiesIncluded": [
@@ -115,6 +118,7 @@
   },
   {
     "id": 4,
+    "picture": "assets/data/apartment-4.jpg",
     "apartmentName": "Signature",
     "propertyLocation": {
       "area": "37D, Gurgaon",
@@ -122,12 +126,12 @@
     },
     "propertyDetail": {
       "area": 900,
-      "LeaseType": ["Long term (6+ months)", "Short Term", "Both"]
+      "leaseType": "Long term (6+ months)"
     },
     "expectedRent": {
       "expectedRent": 16000,
       "isNegotiable": "true",
-      "priceMode": ["Per Month", "Utilities included in rent"]
+      "priceMode": "Annual"
     },
     "furnished": "false",
     "amenitiesIncluded": [
@@ -153,6 +157,7 @@
   },
   {
     "id": 5,
+    "picture": "assets/data/apartment-5.jpg",
     "apartmentName": "Chintal",
     "propertyLocation": {
       "area": "Dwarka Express Way",
@@ -160,12 +165,12 @@
     },
     "propertyDetail": {
       "area": 800,
-      "LeaseType": ["Long term (6+ months)", "Short Term", "Both"]
+      "leaseType": "Short Term"
     },
     "expectedRent": {
       "expectedRent": 15000,
       "isNegotiable": "true",
-      "priceMode": ["Per Month", "Utilities included in rent"]
+      "priceMode": "Per Month"
     },
     "furnished": "false",
     "amenitiesIncluded": [

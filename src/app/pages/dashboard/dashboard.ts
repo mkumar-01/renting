@@ -26,4 +26,7 @@ export class Dashboard {
     })
 
   }
+  viewDetail(id: number | undefined) {
+    console.log(typeof id)
+  }
 }

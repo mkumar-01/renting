@@ -11,24 +11,28 @@
     <h1>All Listing</h1>
     <ul class="property-list">
       @if(listedProperty()){ @for (item of listedProperty(); track $index) {
+
       <li>
         <div class="card" style="width: 18rem">
-          <img src="..." class="card-img-top" alt="..." />
+          <img [src]="item?.picture" class="card-img-top" alt="..." />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card’s content.
-            </p>
+            <h5 class="card-title">{{item?.apartmentName}}</h5>
+            <p class="card-text">{{item?.otherDescription?.description}}</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">{{item?.propertyLocation?.area}}</li>
+            <li class="list-group-item">{{item?.propertyLocation?.state}}</li>
+            <li class="list-group-item">{{item?.propertyDetail?.area}}</li>
+            <li class="list-group-item">{{item?.propertyDetail?.leaseType}}</li>
+            <li class="list-group-item bg-danger text-white bold">
+              {{item?.expectedRent?.expectedRent}}
+            </li>
           </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+          <div class="card-body d-flex gap-3">
+            <button class="btn btn-primary" (click)="viewDetail(item?.id)">
+              View Detail
+            </button>
+            <button href="#" class="btn btn-primary">Mark as favourite</button>
           </div>
         </div>
       </li>
