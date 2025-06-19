@@ -4,14 +4,17 @@ import { Carousel } from '../../components/carousel/carousel';
 import { FeaturedList } from '../../components/featured-list/featured-list';
 import iPropertyDetail from "../../model/propertyDetail"
 import { CommonModule } from '@angular/common';
+import { Router } from '@angular/router';
+import { Search } from '../../components/search/search';
 @Component({
   selector: 'dashboard',
-  imports: [Carousel, FeaturedList, CommonModule],
+  imports: [Carousel, Search, FeaturedList, CommonModule],
   templateUrl: './dashboard.html',
   styleUrl: './dashboard.scss'
 })
 export class Dashboard {
   private http = inject(HttpService)
+  private router = inject(Router);
   // private endPoint = '/data/property-list.json';
   private endPoint = "/assets/data/property-list.json";
   listedProperty = signal<iPropertyDetail[] | undefined>(undefined);
@@ -27,6 +30,6 @@ export class Dashboard {
 
   }
   viewDetail(id: number | undefined) {
-    console.log(typeof id)
+    this.router.navigate([`detail/${id}`]);
   }
 }

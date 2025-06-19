@@ -6,9 +6,13 @@
     <featured-list></featured-list>
   </div>
 </div>
-<div class="row mt-5">
+<div class="row mt-3">
   <div class="col-md-12">
-    <h1>All Listing</h1>
+    <div class="d-flex justify-content-between flex-nowrap">
+      <h1>All Listing</h1>
+      <search></search>
+    </div>
+
     <ul class="property-list">
       @if(listedProperty()){ @for (item of listedProperty(); track $index) {
 
