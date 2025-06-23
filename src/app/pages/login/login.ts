@@ -12,7 +12,6 @@ import { access_token } from '../../constant';
   styleUrl: './login.scss'
 })
 export class Login {
-  private router = inject(Router);
   constructor(private authService: AuthServices) {
 
   }
@@ -32,14 +31,7 @@ export class Login {
     const email = this.loginFormGroup.value.email;
     const password = this.loginFormGroup.value.password;
     if (email && password) {
-      this.authService.login(email, password).subscribe({
-        next: res => {
-          localStorage.setItem(access_token, res.access_token);
-          this.router.navigate(['/dashboard']);
-          // window.location.href = '/dashboard'
-        },
-        error: error => alert("Invalid credentials"),
-      })
+      this.authService.login(email, password);
     }
 
   }
